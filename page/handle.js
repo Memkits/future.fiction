@@ -87,7 +87,7 @@ window.addEventListener("load", function() {
         return load_obj(dir.arr);
       };
     });
-    return obj.arr.sort().forEach(function(file) {
+    return obj.arr.forEach(function(file) {
       var elem;
       elem = spawn("<div class='entry'>" + file.name + "</div>");
       entries.appendChild(elem);

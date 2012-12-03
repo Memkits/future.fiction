@@ -64,7 +64,7 @@ window.addEventListener "load", ->
         # log "-----> click", dir
         load_obj dir.arr
 
-    obj.arr.sort().forEach (file) ->
+    obj.arr.forEach (file) ->
       elem = spawn "<div class='entry'>#{file.name}</div>"
       entries.appendChild elem
       elem.onclick = (e) ->

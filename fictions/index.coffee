@@ -19,7 +19,7 @@ add_dir = (dir_name, obj, location) ->
 
 
   list = fs.readdirSync dir_name
-  list.forEach (file_name) ->
+  list.sort().forEach (file_name) ->
     child_location = path.join location, file_name
     stat = fs.statSync child_location
     if stat.isDirectory()
