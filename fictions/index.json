@@ -1,0 +1,73 @@
+{
+  "dir": [
+    {
+      "name": "sight-of-题叶",
+      "arr": {
+        "dir": [],
+        "arr": [
+          {
+            "path": "sight-of-题叶/12-11-07-机器人之城.fic",
+            "name": "12-11-07-机器人之城.fic"
+          },
+          {
+            "path": "sight-of-题叶/12-12-03-改造.fic",
+            "name": "12-12-03-改造.fic"
+          },
+          {
+            "path": "sight-of-题叶/12-10-21-飞.fic",
+            "name": "12-10-21-飞.fic"
+          },
+          {
+            "path": "sight-of-题叶/12-10-08-可编程的大脑.fic",
+            "name": "12-10-08-可编程的大脑.fic"
+          },
+          {
+            "path": "sight-of-题叶/12-11-15-造梦回廊.fic",
+            "name": "12-11-15-造梦回廊.fic"
+          },
+          {
+            "path": "sight-of-题叶/12-09-14-我并不开心.fic",
+            "name": "12-09-14-我并不开心.fic"
+          }
+        ]
+      }
+    },
+    {
+      "name": "demo",
+      "arr": {
+        "dir": [
+          {
+            "name": "empty",
+            "arr": {
+              "dir": [],
+              "arr": []
+            }
+          },
+          {
+            "name": "nested",
+            "arr": {
+              "dir": [],
+              "arr": [
+                {
+                  "path": "demo/nested/a.fic",
+                  "name": "a.fic"
+                },
+                {
+                  "path": "demo/nested/b.fict",
+                  "name": "b.fict"
+                }
+              ]
+            }
+          }
+        ],
+        "arr": [
+          {
+            "path": "demo/others.fiction",
+            "name": "others.fiction"
+          }
+        ]
+      }
+    }
+  ],
+  "arr": []
+}

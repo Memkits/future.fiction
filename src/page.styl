@@ -1,0 +1,67 @@
+
+@font-face
+  font-family Montserrat
+  src url("../fonts/Montserrat.woff") format(woff)
+
+*
+  box-sizing border-box
+  // box-shadow 0px 0px 2px hsl(0,0,80)
+  font-family Montserrat
+  -webkit-transition-duration 0.4s
+
+::-webkit-scrollbar
+  width 4px
+  height 4px
+
+::-webkit-scrollbar-track
+  width 4px
+  background hsl(0,90,95)
+
+::-webkit-scrollbar-thumb
+  background hsl(0,50,80)
+  border-radius 2px
+
+body
+  margin 0px
+  overflow-y scroll
+  word-spacing 4px
+
+#index
+  position fixed
+  left 50px
+
+#home
+  padding-top 20px
+  cursor pointer
+
+  &:hover
+    color hsl(240,80,70)
+    text-shadow 0px 0px 5px hsl(240,50,80)  
+
+#content
+  padding 60px 0px 200px
+  position absolute
+  left 350px
+  box-shadow -1px 0px 8px hsl(0,0,80)
+  width 800px
+  background hsla(0,100,100,0.9)
+
+#entries
+  margin-top 40px
+
+.entry, .line
+  line-height 40px
+  cursor pointer
+  padding 0px 30px
+
+  &:hover
+    background hsl(240,10,90)
+
+.entry
+  line-height 40px
+
+.line
+  line-height 34px
+
+.mark, .chapter
+  background hsl(240,10,90)
