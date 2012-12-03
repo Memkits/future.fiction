@@ -4,7 +4,7 @@
 }
 * {
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: Montserrat, "wenquanyi micro hei", "microsoft yahei";
   -webkit-transition-duration: 0.4s;
 }
 ::-webkit-scrollbar {
@@ -51,7 +51,8 @@ body {
 .line {
   line-height: 40px;
   cursor: pointer;
-  padding: 0px 30px;
+  padding: 0px 20px;
+  min-width: 260px;
 }
 .entry:hover,
 .line:hover {
@@ -63,7 +64,18 @@ body {
 .line {
   line-height: 34px;
 }
-.mark,
 .chapter {
   background: #e3e3e8;
+  -webkit-transition-duration: 0.1s;
+}
+.chapter:hover {
+  background: #e3e3e8;
+}
+.mark {
+  background: #73738c;
+  color: #fff;
+  -webkit-transition-duration: 0.1s;
+}
+.mark:hover {
+  background: #73738c;
 }

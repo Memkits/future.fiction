@@ -6,7 +6,7 @@
 *
   box-sizing border-box
   // box-shadow 0px 0px 2px hsl(0,0,80)
-  font-family Montserrat
+  font-family Montserrat, "wenquanyi micro hei","microsoft yahei"
   -webkit-transition-duration 0.4s
 
 ::-webkit-scrollbar
@@ -52,7 +52,8 @@ body
 .entry, .line
   line-height 40px
   cursor pointer
-  padding 0px 30px
+  padding 0px 20px
+  min-width 260px
 
   &:hover
     background hsl(240,10,90)
@@ -63,5 +64,15 @@ body
 .line
   line-height 34px
 
-.mark, .chapter
+.chapter
   background hsl(240,10,90)
+  -webkit-transition-duration 0.1s
+  &:hover
+    background hsl(240,10,90)
+
+.mark
+  background hsl(240,10,50)
+  color white
+  -webkit-transition-duration 0.1s
+  &:hover
+    background hsl(240,10,50)

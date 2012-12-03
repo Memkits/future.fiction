@@ -3,8 +3,10 @@
 
 原先写在豆瓣上的一些关于未来的文字, 转到这里  
 Git 应该也是管理文本极实用的工具才对, 我想尝试协作写小说  
+欢迎 Folk 文章修补知识和情节再提交给我  
 
 网页版访问: http://jiyinyiyong.github.com/future.fiction/page  
+目前我只能做到 Chrome 桌面版能正确浏览  
 
 ### 使用说明
 
